@@ -19,6 +19,7 @@
 		"prettier": "^1.7.3",
 		"react": "^16.0.0",
 		"react-dom": "^16.0.0",
+		"react-router-dom": "^4.2.2",
 		"rimraf": "^2.6.2",
 		"style-loader": "^0.18.2",
 		"webpack": "^3.6.0",
@@ -33,13 +34,12 @@
 		"dev": "webpack-dev-server"
 	},
 	"lint-staged": {
-		"*.{js,json,css,jsx}": ["prettier --write", "git add"]
+		"*.{js,json,css,jsx}": [
+			"prettier --write --use-tabs true --tab-width 2",
+			"git add"
+		]
 	},
 	"babel": {
 		"presets": ["env", "es2015", "react"]
-	},
-	"prettier": {
-		"tabWidth": 2,
-		"useTabs": true
 	}
 }

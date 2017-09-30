@@ -10,6 +10,10 @@ module.exports = () => {
 			publicPath: "/dist/"
 		},
 		devtool: "eval",
+		devServer: {
+			//for 404s to fallback to /index.html
+			historyApiFallback: true
+		},
 		module: {
 			rules: [
 				{
