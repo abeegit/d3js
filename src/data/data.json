@@ -1,0 +1,10 @@
+{
+	"bar": [150, 250, 175, 200, 100],
+	"line": [
+		{ "date": "2017-09-01", "bangalore": "23", "mangalore": "31" },
+		{ "date": "2017-09-02", "bangalore": "25", "mangalore": "32" },
+		{ "date": "2017-09-03", "bangalore": "24", "mangalore": "40" },
+		{ "date": "2017-09-04", "bangalore": "28", "mangalore": "32" },
+		{ "date": "2017-09-05", "bangalore": "30", "mangalore": "29" }
+	]
+}
