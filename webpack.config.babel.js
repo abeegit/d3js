@@ -9,7 +9,7 @@ module.exports = () => {
 			path: path.resolve("dist"),
 			publicPath: "/dist/"
 		},
-		devtool: "eval",
+		devtool: "source-map",
 		devServer: {
 			//for 404s to fallback to /index.html
 			historyApiFallback: true

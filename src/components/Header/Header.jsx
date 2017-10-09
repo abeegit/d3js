@@ -1,6 +1,7 @@
 "use strict";
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default class Header extends React.Component {
 	constructor() {
@@ -21,9 +22,9 @@ export default class Header extends React.Component {
 	render() {
 		return (
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
-				<a className="navbar-brand" href="#">
+				<Link className="navbar-brand" to="/home">
 					D3
-				</a>
+				</Link>
 				<button
 					className="navbar-toggler"
 					type="button"
